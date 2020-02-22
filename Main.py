@@ -1,5 +1,3 @@
-# import os module
-import os
 # import cs reader 
 import csv
 
@@ -51,10 +49,9 @@ with open(filepath, newline="") as csvfile:
     revenueAv = sum(change) / len(change)
 
     # print text to sheet
-        print(f"Budget Data Analysis'+'\n")
-        print(f"**************************'+'\n")
-        print(f"Total Months : {monthChanged}")
-        print(f"total: $ {total}")
-        print(f"Greatest Loss: (${greatestLosses}")
-        print(f"Greatest Profit: (${greatestProfit}")
-
+    print("Budget Data Analysis")
+    print("**************************")
+    print("Total Months : {monthChanged}")
+    print("total: $ {total}")
+    print("Greatest Loss: (${greatestLosses}")
+    print("Greatest Profit: (${greatestProfit}")
